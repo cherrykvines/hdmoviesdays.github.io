@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar');
+
+*{
+margin: 0;
+padding: 0;
+user-select: none;
+}
+
+body{
+font-family: 'Kavivanar', cursive;
+}
+
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transperant;
+transition: 0.6s ease;
+}
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+ul li.active a{
+background-color: #fff;
+color: #000;
+}
